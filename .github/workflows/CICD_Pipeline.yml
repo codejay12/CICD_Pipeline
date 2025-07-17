@@ -2,9 +2,9 @@ name: Github Actions CICD Pipeline
 # This workflow will build and test the FastAPI application, and then publish it to Docker Hub.
 on:
   push:
-    branches:[ "main"]
+    branches: [ "main"]
   pull_request:
-    branches:[ "main" ]
+    branches: [ "main" ]
 
 permissions:
   contents: read
