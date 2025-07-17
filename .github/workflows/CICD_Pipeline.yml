@@ -53,7 +53,7 @@ jobs:
           context: .
           file: ./DockerFile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/FastApi:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/Application_Fastapi:latest
 
      
   
