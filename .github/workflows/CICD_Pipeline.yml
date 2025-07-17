@@ -55,7 +55,6 @@ jobs:
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/FastApi:latest
 
-      - name: Image digest
-        run: echo "Image digest: ${{ steps.build.outputs.digest }}"
+     
   
 
